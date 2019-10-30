@@ -1,0 +1,138 @@
+/* Estilos Gerais */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+}
+
+/* Header */
+
+.header .sobre{
+    color: #fff;
+} 
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fec63e;
+    padding: 15px;
+    z-index: 10;
+}
+
+.header_menu_sobre {
+    text-align: right;
+}
+
+.header_menu_sobre ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header_menu_sobre ul li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 10px 0;
+}
+
+.header_menu_sobre ul li a:hover{
+    color: #fff;
+}
+
+/* introdução */ 
+
+.introducao_sobre {
+    width: 100%;
+    background: url("../img/sobre/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+    margin-top: 92px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.introducao_sobre h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.introducao_sobre p {
+    color: #fff;
+    letter-spacing: .1em;
+}
+
+.introducao_sobre p::before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.subtitulo-interno{
+    padding-top: 40px;
+    
+}
+
+/* Missao */
+
+.missao_sobre{
+    padding-top: 40px;
+}
+
+.missao_sobre p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 1em;
+    padding-right: 50px;
+}
+
+.missao_sobre ul li{
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+.foto-equipe {
+    padding-top: 20px;
+}
+
+.subtitulo-interno {
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px;
+
+}
+
+
+
+
+
+
+
+
