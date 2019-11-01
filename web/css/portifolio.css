@@ -1,0 +1,91 @@
+.header .portifolio1{
+    color: #fff;
+} 
+
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fec63e;
+    padding: 15px;
+    z-index: 10;
+}
+
+.header_menu_portifolio {
+    text-align: right;
+}
+
+.header_menu_portifolio ul li {
+    display: inline-block;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+
+.header_menu_portifolio ul li a {
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 10px 0;
+}
+
+.header_menu_portifolio ul li a:hover{
+    color: #fff;
+} 
+
+/* interna portifolio*/
+
+.interna_portifolio {
+    width: 100%;
+    background: url(../img/bg-portfolio.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    margin-top: 92px;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.interna_portifolio h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.interna_portifolio p {
+    color: #fff;
+    letter-spacing: .1em;
+    padding-bottom: 40px;
+}
+
+.interna_portifolio p::before{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.quote_cliente {
+    padding: 60px 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.quote_cliente p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+.quote_cliente cite {
+    font-weight: bold;
+    font-size: 18px;
+    float: right;
+    font-style: normal;
+
+}
